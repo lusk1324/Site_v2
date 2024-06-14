@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho</title>
+    <link rel="stylesheet" href="/CSSs/styles_carrinho.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="/img/img/logo-livraria.png">
+    <script async src="/JavaSc/carrinho.js"></script>
+</head>
+<body>
+    <header>
+        <span>Carrinho de compras da <a href="/paginas/index.html" ><b>MachineBooks</b></a><span>
+    </header>
+    <main>
+        <div class="page-title">Seu Carrinho</div>
+        <div class="content">
+            <section>
+             <table>
+                <thead>
+                    <div >
+                        <tr>
+                            <th>Produto</th>
+                            <th>Preço</th>
+                            <th>Quantidade</th>
+                            <th>Total</th>
+                            <th>-</th>
+                        </tr>
+                                        </thead>
+                                        <tbody>
+                        <tr >
+                            <td>
+                                <div class="product">
+                                    <img src="/img/img/o_misterio_do_universo.jpg" alt="#">
+                                    <div class="info">
+                                      <div class="name">Os Mitistérios do Universo</div>
+                                      <div class="category">Categoria : Livro</div>
+                                    </div>
+                                  </div>
+                            </td>
+                            <td>
+                                <span class="price">R$38,33</span>
+                            </td>
+                            <td>
+                                <div class="qty">
+                                    <input type="number" value="2" min="0" class="product-qtd"></input>
+                                </div>
+                            </td>
+                            <td>
+                                <button class="remove"><i class='bx bx-x'></i></button>
+                            </td>
+                        </tr>
+                        <tr >
+                            <td>
+                                <div class="product">
+                                    <img src="/img/img/inteligencia_emocional.jpg" alt="#">
+                                    <div class="info">
+                                      <div class="name">QE. Inteligência emocional</div>
+                                      <div class="category">Categoria : Livro</div>
+                                    </div>
+                                  </div>
+                            </td>
+                            <td>
+                                <span class="price">R$317,00</span>
+                            </td>
+                            <td>
+                                <div class="qty">
+                                    <input type="number" value="2" min="0" class="product-qtd"></input>
+                                </div>
+                            </td>
+                            <td>
+                                <button class="remove"><i class='bx bx-x'></i></button>
+                            </td>
+                        </tr>
+                        <tr >
+                            <td>
+                                <div class="product">
+                                    <img src="/img/img/homem-mais.jpg" alt="#">
+                                    <div class="info">
+                                      <div class="name">O Homem Mais Rico Da Babilônia</div>
+                                      <div class="category">Categoria : Livro</div>
+                                    </div>
+                                  </div>
+                            </td>
+                            <td>
+                                <span class="price">R$24,43</span>
+                            </td>
+                            <td>
+                                <div class="qty">
+                                    <input type="number" value="2" min="0" class="product-qtd"></input>
+                                </div>
+                            </td>
+                            <td>
+                                <button class="remove"><i class='bx bx-x'></i></button>
+                            </td>
+                        </tr>
+                    </div>
+                </div>    
+                </tbody>
+            </table>
+        </section>
+            <aside class="aside">
+                <div class="box">
+                    <header>Resumo da compra</header>
+                    <div class="info">
+                        <div><span>Sub-total </span><span class="car-total">R$ 379,76</span></div>
+                        <div><span>Frete</span><span>Gratuito</span></div>
+                        <div><button>Adicionar cupom de desconto <i class='bx bx-right-arrow-alt'></i></button></div>
+                    </div>
+                    <footer class="car-total">
+                        <strong>Total</strong>
+                        <span>R$: 365,86</span>
+                    </footer>
+                </div>
+                <button>Finalizar Compra</button>
+            </aside>
+        </div>
+    </main>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!--<tr>
+    <td>
+        <div class="product">
+            <img src="/img/img/o_misterio_do_universo.jpg" alt="#">
+            <div class="info">
+              <div class="name">Os Mitistérios do Universo</div>
+              <div class="category">Categoria : Livro</div>
+            </div>
+          </div>
+    </td>
+    <td>
+        <span class="price">R$24,43</span>
+    </td>
+    <td>
+        <div class="qty">
+            <input type="number" value="2" min="0" class="product-qtd"></input>
+        </div>
+    </td>
+    <td>
+        <button class="remove"><i class='bx bx-x'></i></button>
+    </td>
+</tr>>
